@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). This projects is going to be the interface for the platziPunks course, using the smart contract that is already deployed.
 
 ## Available Scripts
 

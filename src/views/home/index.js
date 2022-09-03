@@ -39,13 +39,11 @@ const Home = () => {
       from: account,
       value: 0.005e18
     }).on("transactionHash", (txHash) => {
-      setIsMinting(false)
       toast({
         title: 'Transacción enviada',
         description: txHash,
         status: 'info',
       })
-      
     }).on("receipt", () => {
       setIsMinting(false)
       toast({
